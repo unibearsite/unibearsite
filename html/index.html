@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="discription" content="プログラミング/ボイストレーニングの上達ノウハウを公開">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>トップページ | UNI-BEAR SITE</title>
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/reset_original.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Anton&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/421841d6a1.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H4LSGW" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript><?php include("inc/header.php"); ?>
+    <main>
+      <div class="slick-container">
+        <div class="slick-box">
+          <div><img src="images/bg.jpg" alt=""></div>
+          <div><img src="images/bg.jpg" alt=""></div>
+          <div><img src="images/bg.jpg" alt=""></div>
+          <div><img src="images/bg.jpg" alt=""></div>
+          <div><img src="images/bg.jpg" alt=""></div>
+          <div><img src="images/bg.jpg" alt=""></div>
+          <p>あいうえお</p>
+        </div>
+      </div>
+      <div class="flex"><?php include("inc/article.php"); ?>
+<?php include("inc/aside.php"); ?>
+      </div>
+    </main><?php include("inc/footer.php"); ?>
+    <div class="shutter"></div>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <script>
+      jQuery('.icon-hamburger').on('click', function() {
+      if(jQuery('nav ul').css('display') === 'block') {
+        jQuery('nav ul').slideUp('1500');
+      } else {
+        jQuery('nav ul').slideDown('1500');
+      }
+      });
+    </script>
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
+    <script>
+      $(function(){
+        $('.slick-box').slick({
+          centerMode: true, //センターモード
+          centerPadding: '60px', //前後のパディング
+          autoplay: true, //オートプレイ
+          autoplaySpeed: 2000, //オートプレイの切り替わり時間
+          slidesToShow: 3,
+          responsive: [{
+          breakpoint: 1024,
+          settings: {
+         	arrows: false, // 前後の矢印非表示
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1,
+          }
+        },
+        {
+          breakpoint: 1920,
+          settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3,
+        }
+      }]
+      });
+      });
+    </script>
+  </body>
+</html>

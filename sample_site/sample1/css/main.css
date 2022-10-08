@@ -1,0 +1,18 @@
+body {
+  background: #efefef;
+}
+
+header {
+  background: skyblue;
+}
+
+main {
+  background: blue;
+}
+main h1 {
+  color: #fff;
+}
+
+footer {
+  background: green;
+}

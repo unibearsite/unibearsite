@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+* {
+  font-family: "ヒラギノ角ゴ　Pro　W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "MS Pゴシック", "MS PGothic", sans-serif;
+}
+body {
+  background-color: #fff;
+}
+a {
+  color: #f88;
+}
+a:hover {
+  color: #ffa8a8;
+}
+.header {
+  width: 980px;
+  height: 190px;
+  margin: 0 auto;
+  position: relative;
+}
+.wrapper-header {
+  background: url(../images/site5/header-bg.jpg) repeat-x;
+}
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+}
+.contact {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  padding: 10px 30px;
+  background-color: #f38d1f;
+  border-radius: 0 0 20px 20px;
+  text-align: center;
+  color: #f9efdb;
+}
+.contact h2 {
+  font-size: 14px;
+  margin: 0 0 5px;
+}
+.contact p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+}
+.wrapper-nav {
+  background-color: #f38d1f;
+}
+.nav {
+  margin: 0 auto;
+  width: 980px;
+  overflow: hidden;
+}
+.nav li {
+  float: left;
+  width: 20%;
+}
+.nav li a {
+  display: block;
+  padding: 20px 0;
+  border-right: 1px solid #ebcc99;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: #f9efdb;
+  transition: 0.2s linear;
+}
+.nav li:last-child a {
+  border-right: none;
+}
+.nav li a:hover {
+  background-color: #ffa320;
+  transition: 0.2s linear;
+}
+.keyvisual {
+  margin: 0 auto;
+  width: 980px;
+  font-size: 0;
+}
+.main {
+  margin: 0 auto;
+  width: 980px;
+}
+.main::after {
+  content: '';
+  display: block;
+  font-size: 0;
+  clear: both;
+}
+.news {
+  float: left;
+  width: 610px;
+  padding: 40px 20px;
+}
+.news h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #695c4b;
+}
+.banners {
+  float: left;
+  width: 290px;
+  padding: 40px 20px;
+}
+.news div {
+  overflow:hidden;
+  padding: 10px;
+  border-top: 1px dashed #e8fbcf;
+}
+.news div img {
+  float: left;
+  margin: 0 10px 0 0;
+  border-radius: 50%;
+}
+.banners div {
+  font-size: 0;
+  margin: 0 0 15px;
+}
+.banners a:hover img {
+  opacity: 0.5;
+}
+.footer {
+  margin: 0 auto;
+  width: 980px;
+  border-top: 3px solid #e8dbcf;
+  padding: 20px;
+  color: #927f67;
+}
+.footer-nav a {
+  color: #927f67;
+}
+.footer-nav a:hover {
+  color: #baa387;
+}
+.copyright {
+  margin: 10px 0 0;
+  text-align: right;
+}

@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+/* reset start */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+
+html {
+  height: 100% ;
+  font-size: 62.5% ;
+}
+
+body {
+  height: 100%;
+}
+
+header, main, footer, nav, div, section {
+  display: block ;
+}
+
+h1, h2, h3 {
+  font-weight: normal ;
+}
+
+li {
+  list-style-type: none ;
+}
+
+a {
+  text-decoration: none ;
+}
+/* reset end */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Serif JP', sans-serif;
+  background-image: url("logo.png");
+  background-size: cover;
+  color: #444;
+}
+
+header {
+    margin: 220px auto 400px;
+    height: 1000px;
+    display: flex;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 70px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+main {
+    height: 100%;
+    padding: 80px 0;
+    background-color: #fff;
+}
+main h3 + p {
+  margin-bottom: 100px;
+}
+main h2 {
+  margin: 30px;
+  font-weight: bold;
+  font-size: 3.5rem;
+  font-family: serif;
+  color: #444;
+}
+main li {
+    width: 250px;
+    height: 250px;
+    margin: 0 50px;
+    padding: 30px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    color: #444;
+    box-shadow: 10px 5px 0px  #e5d2f1;
+    border: solid 1px #e5d2f1;
+}
+main li a {
+    display: block;
+}
+main span {
+  display: inline-block;
+  margin-bottom: 30px;
+  font-family: serif;
+  font-weight: bold;
+  color: #555;
+}
+main .section1 {
+  height: 60%;
+}
+main .section2 {
+  height: 47%;
+  background-color: #555;
+  color: #fff;
+}
+main .section2 h2 {
+  margin: 60px;
+  display: inline-block;
+  color: #fff;
+}
+main .section2 p {
+  margin-bottom: 100px;
+}
+footer {
+    padding: 100px 0;
+    height: 100%;
+    background-color: #444;
+    color: #fff;
+}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+//------------------------------------------import----------------------------------------------------------//
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap&subset=latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Abel|Girassol|Teko:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+//------------------------------------------color----------------------------------------------------------//
+body {
+  color: #fff;
+  background: #333;
+  font-size: 1.6rem;
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  main {
+    width: 50%;
+    margin: 200px auto;
+    form {
+      div {
+        display: flex;
+        margin-bottom: 40px;
+        span {
+          margin-right: auto;
+          font-weight: bold;
+        }
+        input {
+          padding: 10px 0;
+          width: 85%;
+        }
+        textarea {
+          padding: 10px 0;
+          width: 85%;
+        }
+      }
+      button {
+        width: 500px;
+        padding: 10px;
+        margin: 0 auto;
+        display: block;
+        border: none;
+        border-radius: 25px;
+        color: #333;
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 0.8rem;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}

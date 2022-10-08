@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+  padding-top: 40px;
+  background: url(../../images/bg.jpg);
+  background-size: cover;
+  text-align: center;
+}
+main {
+  width: 1000px;
+  padding: 100px 0;
+  margin: 200px auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.title {
+  padding:30px 0;
+}
+#target {
+  font-size: 48px;
+  letter-spacing: 3px;
+}
+.info {
+  margin: 40px 0;
+  color: #333;
+}

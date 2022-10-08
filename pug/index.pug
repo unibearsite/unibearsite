@@ -1,0 +1,20 @@
+doctype
+html(lang="ja" dir="ltr")
+
+  head: <?php include("inc/head.php"); ?>
+  
+  body
+    
+    noscript: iframe(src="https://www.googletagmanager.com/ns.html?id=GTM-5H4LSGW" height="0" width="0" style="display:none;visibility:hidden")
+
+    header: <?php include("inc/header.php"); ?>
+
+    main: .flex: <?php include("inc/article.php"); ?><?php include("inc/aside.php"); ?>
+
+    footer: <?php include("inc/footer.php"); ?>
+    
+    .shutter
+    
+    script(type="text/javascript" src="js/jquery-3.4.1.min.js")
+    script(type="text/javascript" src="js/main.js")
+    script(type="text/javascript" src="js/slick/slick.min.js")

@@ -1,0 +1,24 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+main{
+  width:1903px;
+  margin:0 auto;
+}
+header{
+  height:64px;
+  background-color:#00AEEF;
+}
+.content-wrapper{
+  height:595px;
+  background-color:skyblue;
+}
+.content1{
+  width:960px;
+  height:595px;
+  margin:0 auto;
+}
+.content1 img{
+  float:left;
+}

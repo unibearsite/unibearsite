@@ -1,0 +1,41 @@
+!!!
+%html{:lang => "ja"}
+  %head
+    %meta(charset="UTF-8")
+  %body
+    %p hello world again!
+    %p hello again!
+    / ulと改行 < <>
+    %ul
+      %li<>item
+      %li<>item
+    / 省略の仕方
+    %div{:id => "main", :class => "myClass"}
+    %div(id="main" class="myClass")
+    %div#main.myClass
+    #main.myClass
+    #main<
+      .subMenu
+    / スタイルタグとスクリプトタグの書き方
+    :css
+      .myStyle {
+        color: red;
+      }
+    :javascript
+      alert(1);
+      if (1) {
+        alert(2);
+      }
+    / 実体参照省略型
+    %div
+      :escaped
+        <html>
+        </html>
+    / 計算をしたいとき
+    %p total is #{5 * 3}
+    %p= Time.now
+    - x = 5
+    %p= x
+    - (1..10).each do |i|
+      / %p= i
+      %p{:id => "item_#{i}"} #{i}

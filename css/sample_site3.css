@@ -1,0 +1,100 @@
+*{
+  padding:0;
+  letter-spacing:0.08em;
+}
+body{
+  font-family:Roboto, 'Noto Sans Japanese', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Yu Gothic', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', Arial, 'メイリオ', Meiryo, sans-serif;
+  background-color:#fafafa;
+  color:#666;
+  font-size:0.85rem;
+  margin:0px;
+}
+header{
+  height:60px;
+  background-color:#fff;
+  margin:0px;
+  border-bottom:1px solid rgb(238,238,238);
+}
+main{
+  margin:50px 50px 0;
+}
+.content-wrapper{
+  width:1100px;
+  margin:0 auto;
+}
+h1{
+  border-left:7px solid #ff6473;
+  padding-left:21px;
+  margin-bottom:50px;
+  font-weight:900;
+  font-size:1.9rem;
+  line-height:1.2em;
+}
+p{
+  margin:0;
+}
+h3{
+  margin:0;
+  padding:0;
+}
+ul{
+  margin-left:20px;
+}
+a{
+  text-decoration:none;
+  color:#ff6473;
+}
+.img-wrapper{
+  max-width:70%;
+  margin:0 auto 40px;
+}
+img.top-image{
+  margin-bottom:40px;
+  width:720px;
+  height:420px;
+}
+.text{
+  font-weight:500;
+  font-size:1.1rem;
+}
+.content{
+  margin-bottom:50px;
+}
+.list1{
+  border-top:2px solid rgb(102, 102, 102);
+  border-bottom:2px solid rgb(102, 102, 102);
+}
+.space{
+  margin-bottom:50px;
+}
+.space2{
+  display:block;
+  height:450px;
+}
+h2.h2option{
+  background-color:#EEE;
+  padding:10px;
+  margin:0 0 20px 0;
+}
+a.btn{
+  display:block;
+  width:280px;
+  height:50px;
+  text-align:center;
+  background-color:rgb(102,102,102);
+  color:#fff;
+  border-radius:4px;
+  font-size:1.05rem;
+  font-weight:bold;
+  margin:0 auto;
+  line-height:50px;
+}
+a.btn:hover{
+  cursor:pointer;
+  opacity:0.8;
+}
+footer{
+  padding:40px 20px 20px;
+  height:400px;
+  background-color:#EEE;
+}
